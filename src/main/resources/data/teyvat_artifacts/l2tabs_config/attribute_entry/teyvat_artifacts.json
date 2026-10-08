@@ -1,0 +1,10 @@
+{
+  "list": [
+    {
+      "id": "teyvat_artifacts:display_damage_bonus",
+      "intrinsic": 0.0,
+      "order": 21000,
+      "usePercent": false
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+# eclipse
+bin
+*.launch
+.settings
+.metadata
+.classpath
+.project
+
+# idea
+out
+*.ipr
+*.iws
+*.iml
+.idea
+
+# gradle
+build
+.gradle
+
+# other
+eclipse
+run
+
+# Files from Forge MDK
+forge*changelog.txt
+
+# ============ 本项目追加 ============
+# 第三方依赖 jar（版权原因不入库）；构建已改走公共 maven，克隆后无需 libs/
+/libs/
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+
+# 本地运行时目录（含世界存档与玩家信息）
+run-data/
+logs/
+
+# 发布产物归档
+/outputs/
+/mcmodsrepo/
+/repo/
+
+# 解压开的第三方分发物与本地 Gradle 发行版
+/tools/gradle-*/
+
+# 美术素材原稿与参考资料（体积大，不属于源码仓库）
+/贴图/
+/圣遗物饰品图素/
+/试炼刷怪笼材质参考/
+
+# 开发脚本缓存
+__pycache__/
+*.pyc
+
+# ============ 本地策划资料（保留在工作目录，不上传仓库） ============
+/更新日志*.md
+/AGENTS.md
+/docs/
+/tools/
+/examples/
+
+# 压缩包与抓取的网页资料
+*.zip
+*.7z
+*.htm
+*.html
+*.pdf
+
+# 系统文件
+Thumbs.db
+Desktop.ini
+.DS_Store
